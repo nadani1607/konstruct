@@ -13,6 +13,7 @@
     <section class="preview">
         <div class="container">
             <div class="preview__wrapper">
+                <!-- здесь логотип обернуть в ссылку, т.к. он должен вести на главную страницу -->
                 <img class="preview__logo" src="./images/projeco-logo.png" alt="">
                 <div class="preview__box">
                     <p class="preview__title">PARTNER WITH KONSTUCT</p>
@@ -25,7 +26,11 @@
     <header class="header">
         <div class="container">
             <div class="header__wrapper">
+                <!-- здесь логотип обернуть в ссылку -->
                 <img class="header__logo" src=".//images/projeco-logo-black.png" alt="">
+                <!-- в данном случае подходит,
+                 но лучше меню заворачивать в ul li a,
+                 так проще в большинстве случаев с ним работать-->
                 <div class="header__menu">
                     <a class="header__link" href="#">HOME</a>
                     <a class="header__link" href="#">ABOUT</a>
@@ -36,7 +41,7 @@
             </div>
         </div>
     </header>
-    <section class="story">
+    <section class="story"><!-- в секции должен быть заголовок хотя бы один h1/h2/.../h6 -->
         <div class="container">
             <div class="story__wrapper">
                 <div class="story__title">OUR STORY</div>
@@ -115,12 +120,13 @@
             <div class="signup__wrapper">
                 <div class="signup__items"></div>
                 <p class="signup__title">Newsletter Signup</p>
+                <!-- здесь завернуть в тег form -->
                 <input class="signup__input" type="text" placeholder="test@youremail.com">
                 <button class="signup__button">SIGNUP</button>
             </div>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer"><!-- здесь цвет фона другой -->
         <div class="container">
             <div class="footer__wrapper">
                 <div class="footer__company">
