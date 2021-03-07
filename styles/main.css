@@ -1,3 +1,7 @@
+/* решение подходит) но так лучше подключать только шрифты,
+ отдельные файлы стилей лучше link в html, чтобы к ним
+ был доступ у backend разработчика для отключения и т.д.
+ */
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
@@ -18,6 +22,8 @@ a {
 }
 
 .container {
+    /* для контейнера лучше width,
+    иначе может плющить блок как в секции build сейчас */
     max-width: 960px;
     margin: 0 auto;
     padding-right: 10px;
@@ -263,6 +269,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* путь до картинки поломался */
     background-image: url(/images/bg\ \(2\).png);
     background-size: cover;
     background-repeat: no-repeat;
